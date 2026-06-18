@@ -1,5 +1,5 @@
 // Importar el router de Express
-import {router} from 'express';
+import {Router} from 'express';
 
 // Importar las funciones del controlador
 import {
@@ -8,7 +8,7 @@ import {
     crearPersonaje,
     actualizarPersonaje,
     eliminarPersonaje
-} from '../controllers/personajes.controller.js';
+} from '../controllers/personajes.controllers.js';
 
 // Crea una instancia del router
 const router = Router();

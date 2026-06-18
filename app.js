@@ -2,7 +2,7 @@
 import express from "express";
 
 // Importar las rutas
-import personajesRoutes from "./routes/personajes.routes.js";
+import personajesRoutes from "./src/routes/personajes.routes.js";
 
 // Configuración del servidor
 const app = express();
